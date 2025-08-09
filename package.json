@@ -1,0 +1,12 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Project setup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Dev server not configured yet'",
+    "start": "echo 'Start command not configured yet'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
