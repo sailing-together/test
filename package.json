@@ -2,11 +2,13 @@
   "name": "code",
   "version": "1.0.0",
   "description": "Project setup",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "dev": "echo 'Dev server not configured yet'",
-    "start": "echo 'Start command not configured yet'"
+    "dev": "npx http-server . -p 3000 -c-1",
+    "start": "npm run dev"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
